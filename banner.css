@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Clases de estilo de la sección 1: Portada, Título, Subtítulo y Botón */
+
+.section1 {
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('img/Portada WeCreate 2.png');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.subtitle, .title, .title2, .cta-container {
+    margin-left: 115px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.section1 .title{
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    word-wrap: break-word;
+    margin-bottom: -10px;
+}
+
+.section1, .title2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cta-button {
+    width: 180px;
+    height: 40px;
+    background: black;
+    color: white; /* Color inicial del texto */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px; /* Tamaño inicial del texto */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    margin-top: 30px;
+}
+
+.cta-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.cta-button:hover {
+    background-color: #380535; /* Color al pasar el ratón */
+    color: black;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    .section1 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .title, .title2 {
+        font-size: 36px;
+    }
+    .cta-button {
+        width: 150px;
+        height: 35px;
+    }
+    .cta-link {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section1 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        align-items: center;
+        text-align: center;
+    }
+    .subtitle, .title, .title2, .cta-container {
+        margin-left: 0;
+        gap: 10px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .title, .title2 {
+        font-size: 32px;
+    }
+    .cta-button {
+        width: 140px;
+        height: 30px;
+    }
+    .cta-link {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section1 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .title, .title2 {
+        font-size: 28px;
+    }
+    .cta-button {
+        width: 120px;
+        height: 28px;
+    }
+    .cta-link {
+        font-size: 10px;
+    }
+}

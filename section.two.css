@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.section2 {
+    width: 1270px;
+    height: auto;
+    padding: 40px 40px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.description, .title, .feature-text {
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.description {
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    padding-right: 0px;
+}
+
+.title {
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 800;
+    padding-right: 2px;
+}
+
+.features {
+    width: auto;
+    max-width: 1412px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.feature-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.feature-text {
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    gap: 5px;
+}
+
+.feature-item:nth-child(2) .feature-icon,
+.feature-item:nth-child(3) .feature-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.feature-item:nth-child(4) .feature-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .section2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .feature-item {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .feature-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .feature-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section2 {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .feature-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .feature-text {
+        font-size: 10px;
+    }
+}

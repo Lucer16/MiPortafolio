@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Clases de estilo de la sección 1: Portada, Titulo, Subtitulo y Botón */
+
+.subtitle {
+    color: white;
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  /* Infinitas opciones */
+  .title {
+    color: white;
+    font-size: 64px;
+    font-family: Poppins;
+    font-weight: 900;
+    word-wrap: break-word;
+  }
+  
+  /* para tu marca */
+  .title {
+    color: white;
+    font-size: 64px;
+    font-family: Poppins;
+    font-weight: 900;
+    word-wrap: break-word;
+  }
+  
+  /* Realizar cotización */
+  .realizar-cotizacion {
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
