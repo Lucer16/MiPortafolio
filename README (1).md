@@ -39,7 +39,7 @@
 
 ### 🎭 Proyecto 3: Práctica de Variables [🔗 Enlace](https://lucer16.github.io/Proyecto-MisServicios/)
 
-![Captura de Pantalla 1](Mis-servicios.png)
+![Captura de Pantalla](https://github.com/Lucer16/Proyecto-MisServicios/blob/bdd0d5ae6de5cfa0ae6c43c4a971efd5ce6a1db3/Mis-servicios.png)
 
 🎯 **Objetivo:** Desarrollar un portafolio interactivo que muestre mis servicios utilizando variables CSS y JavaScript para dinamismo y mejor experiencia de usuario.
 
@@ -53,8 +53,6 @@
 
 ### 🌐 Proyecto 4: --En Curso-- Agencia de Diseño Web: Wecreate [🔗 Enlace](https://lucer16.github.io/Proyecto-Wecreate/)
 
-[Miralo en mi Repositorio](https://github.com/Lucer16/Proyecto-Wecreate)
-
 ![Captura de Pantalla](https://github.com/Lucer16/Proyecto-Wecreate/blob/b750472601b31c930dc480380cb7917ba689ee10/Wecreate-en-curso-1.png)
 
 🎯 **Objetivo:** Construir una plataforma profesional para mostrar mis habilidades, proyectos y servicios, utilizando Bootstrap para un diseño responsivo y atractivo.
@@ -65,6 +63,7 @@
 - Bootstrap
 - JavaScript
 
+[¡Mira el proyecto en mi Repositorio!](https://github.com/Lucer16/Proyecto-Wecreate)
 ---
 
 ### 📊 Proyecto 5: ---En Curso--- Servicios Contables César [🔗 Enlace](https://www.figma.com/design/meXWfbPdIxQ7w7N5YA4Cpy/Servicios-Contables?node-id=0-1&t=UiGcpRNcGE8O2ton-1)
